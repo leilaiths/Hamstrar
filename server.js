@@ -1,4 +1,7 @@
-const PORT = 1377
+
+
+//heroku uses process.env.PORT
+const PORT = process.env.PORT || 1377
 const express = require('express')
 const app = express()
 
